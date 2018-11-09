@@ -1,0 +1,16 @@
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Debug\Raft.exe.config
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Debug\Raft.exe
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Debug\Raft.pdb
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.Properties.Resources.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.csproj.GenerateResource.cache
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.csproj.CoreCompileInputs.cache
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.exe
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.pdb
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.MainForm.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.MsgBox.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Debug\Raft.exe.manifest
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Debug\Raft.application
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.TrustInfo.xml
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.exe.manifest
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.application
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.csprojAssemblyReference.cache
