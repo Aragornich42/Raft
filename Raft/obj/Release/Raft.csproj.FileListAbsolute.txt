@@ -1,0 +1,17 @@
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Release\Raft.exe.config
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Release\Raft.exe.manifest
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Release\Raft.application
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Release\Raft.exe
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\bin\Release\Raft.pdb
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.MainForm.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.MsgBox.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.Properties.Resources.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.Rules.resources
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.csproj.GenerateResource.cache
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.csproj.CoreCompileInputs.cache
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.TrustInfo.xml
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.exe.manifest
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.application
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.exe
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.pdb
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Release\Raft.csprojAssemblyReference.cache

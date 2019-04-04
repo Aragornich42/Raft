@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Raft.exe" size="19424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Raft.exe" size="21984">
       <assemblyIdentity name="Raft" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+PfzMRCTPxCEGjm3+7DRpEeoXZ5IPV2a+MYuv5PMLoM=</dsig:DigestValue>
+        <dsig:DigestValue>CHn5ZQUha1O4BH+wrkDetuLipApPDv0ei/Z/gmArLSA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

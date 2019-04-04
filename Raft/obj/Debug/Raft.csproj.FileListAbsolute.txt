@@ -14,3 +14,4 @@ C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft
 C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.exe.manifest
 C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.application
 C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.csprojAssemblyReference.cache
+C:\Users\arago\Dropbox\ДЛЯ ПРОГРАММИРОВАНИЯ\С#\Плот\Raft\obj\Debug\Raft.Rules.resources
