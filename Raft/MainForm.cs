@@ -24,11 +24,20 @@ namespace Raft
         private bool isRead = false; //проверка на то, прочитан ли был файл
         private int startPointX = 0;
         private int startPointY = 0;
+
+        enum Direction : int
+        {
+            RIGHT = 0,
+            DOWN = 1,
+            LEFT = 2,
+            UP = 3
+        };
         
         struct Coordinates  //Структура для хранения координат
         {
             public int x;
             public int y;
+            public Direction direct;
         }
 
         private Stack<Coordinates> stack = new Stack<Coordinates>(); //Стек для создания пути
@@ -147,7 +156,6 @@ namespace Raft
                     //dataGridView1[x, y].Value = Resources._2;
                     coordinates.x = x;
                     coordinates.y = y;
-                    stack.Push(coordinates);
                     d--;
                     for (int k = 0; k < 4; k++)
                     {
@@ -157,9 +165,25 @@ namespace Raft
                         {
                             x += dx[k];
                             y += dy[k];
+                            switch(k)
+                            {
+                                case 0:
+                                    coordinates.direct = Direction.LEFT;
+                                    break;
+                                case 1:
+                                    coordinates.direct = Direction.UP;
+                                    break;
+                                case 2:
+                                    coordinates.direct = Direction.RIGHT;
+                                    break;
+                                case 3:
+                                    coordinates.direct = Direction.DOWN;
+                                    break;
+                            }
                             break;
                         }
                     }
+                    stack.Push(coordinates);
                 }
                 //dataGridView1[0, 0].Value = Resources._2;
                 isStrand = false;
@@ -310,7 +334,40 @@ namespace Raft
                     {
                         dataGridView1[coordinates.x, coordinates.y].Value = Resources._2;
                         coordinates = stack.Pop();
-                        dataGridView1[coordinates.x, coordinates.y].Value = Resources._3;
+                        for(int i = 0; i < size; i++)
+                        {
+                            for(int j = 0; j < size; j++)
+                            {
+                                dataGridView1[coordinates.x + i, coordinates.y + j].Value = Resources._3;
+                            }
+                        }
+                        switch(coordinates.direct)
+                        {
+                            case Direction.RIGHT:
+                                for(int i = 1; i < size; i++)
+                                {
+                                    dataGridView1[coordinates.x - 1, coordinates.y + i].Value = Resources._0;
+                                }
+                                break;
+                            case Direction.DOWN:
+                                for (int i = 1; i < size; i++)
+                                {
+                                    dataGridView1[coordinates.x + i, coordinates.y - 1].Value = Resources._0;
+                                }
+                                break;
+                            case Direction.LEFT:
+                                for (int i = 1; i < size; i++)
+                                {
+                                    dataGridView1[coordinates.x + size, coordinates.y + i].Value = Resources._0;
+                                }
+                                break;
+                            case Direction.UP:
+                                for (int i = 1; i < size; i++)
+                                {
+                                    dataGridView1[coordinates.x + 1, coordinates.y + size].Value = Resources._0;
+                                }
+                                break;
+                        }
                         Application.DoEvents();
                         Thread.Sleep(1000);
                     }
