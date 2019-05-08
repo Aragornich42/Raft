@@ -121,8 +121,8 @@ namespace Raft
                 do
                 {
                     stop = true;
-                    for (int i = 0; i < heigth; i++)
-                        for (int j = 0; j < width; j++)
+                    for (int i = startPointX; i < heigth; i++)
+                        for (int j = startPointY; j < width; j++)
                             if (field[i, j] == d)
                             {
                                 for (int k = 0; k < 4; k++)
@@ -262,7 +262,7 @@ namespace Raft
                 {
                     startPointX = rowInd;
                     startPointY = colInd;
-                    dataGridView1[startPointX, startPointY].Value = Resources._3;
+                    dataGridView1[startPointY, startPointX].Value = Resources._3;   //некоторые особенности записи значений в матрицу
                 }
                 else
                 {
@@ -328,8 +328,8 @@ namespace Raft
                 }
                 else
                 {
-                    coordinates.x = startPointX;
-                    coordinates.y = startPointY;
+                    coordinates.x = startPointY;    //тоже особенности записи значений в матрицу, когда x становится y и наоборот
+                    coordinates.y = startPointX;
                     while (stack.Count != 0)
                     {
                         dataGridView1[coordinates.x, coordinates.y].Value = Resources._2;
